@@ -1910,12 +1910,12 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #050505;
+  background-color: #141414;
 }
 
 .intro-content {
   height: 100%;
-  max-width: 1140px;
+  max-width: 1400px;
   padding-top: 20vh;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1927,7 +1927,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic.jpg);
+  background-image: url(../images/hakim_galerie/IMG_20201220_210900_736.jpg);
   background-size: cover;
   position: absolute;
   top: 20%;
