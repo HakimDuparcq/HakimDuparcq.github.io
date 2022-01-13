@@ -573,6 +573,15 @@
 
     </section> <!-- end s-contact -->
 
+    <div class="col-six tab-full">
+        <div id="visits">...</div>
+            <script>
+            function cb(response) {
+                document.getElementById('visits').innerText = response.value;
+            }
+            </script>
+            <script async src="https://api.countapi.xyz/hit/hakimduparcq.gituhb.io/visits?callback=cb"></script>
+    </div>
 
     <!-- footer
     ================================================== -->
@@ -630,15 +639,7 @@
     </div><!-- end photoSwipe background -->
 
 
-    <div class="col-six tab-full">
-        <div id="visits">...</div>
-            <script>
-            function cb(response) {
-                document.getElementById('visits').innerText = response.value;
-            }
-            </script>
-            <script async src="https://api.countapi.xyz/hit/hakimduparcq.gituhb.io/visits?callback=cb"></script>
-    </div>
+    
 
     <!-- Java Script
     ================================================== -->
